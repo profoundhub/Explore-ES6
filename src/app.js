@@ -44,8 +44,8 @@ class Women extends Sports {
 let w = new Women();
 let m = new Men();
 
-m.watch();
 w.watch();
+m.watch();
 
 Women.getCountry();
 Men.getCountry();
