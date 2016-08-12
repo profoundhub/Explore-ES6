@@ -1,90 +1,33 @@
 //Extending Classes
 class Olympics {
-  constructor(countryRepresent) {
-    this.countryRepresent = countryRepresent;
+  constructor() {
+    this.countryRepresented = true;
     // console.log('Olympics constructor');
   }
 }
 
 class Sports extends Olympics {
-  constructor(countryRepresent) {
-    super(countryRepresent);
-    this.countryRepresent = countryRepresent;
-    // console.log('Sports constructor');
+  constructor() {
+    super();
   }
 }
 
 class Men extends Sports {
-  constructor(countryRepresent) {
-    super(countryRepresent);
-    this.countryRepresent = countryRepresent;
-    // console.log('Men constructor');
+  constructor() {
+    super();
+    this.countryRepresented = false;
+
   }
 }
 
 class Women extends Sports {
-  constructor(countryRepresent) {
-    super(countryRepresent);
-    this.countryRepresent = countryRepresent;
-    // console.log('Women constructor');
+  constructor() {
+    super();
   }
 }
 
-let w = new Women('Canada');
-let m = new Men('Canada');
+let w = new Women();
+let m = new Men();
 
-    console.log(w.countryRepresent);
-
-/* END Of Part 2c */
-
-
-
-
-
-
-
-
-
-
-// w is an instanceof Olympics && Sports!
-/*
-console.log(w instanceof Sports);
-console.log(w instanceof Olympics);
-console.log(w instanceof Object);
-*/
-// Done Part 2 a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-console.log(w instanceof Sports);
-console.log(w instanceof Olympics);
-
-console.log('Sports: ' , w instanceof Sports);
-console.log('Olympics: ' , w instanceof Olympics);
-*/
-
-
-/*
-Structure:
-
-Olympics <-- (extends) Sports  <-- (extends) Men
-Olympics <-- (extends) Sports  <-- (extends) Women
-
- Men > Sports > Olympics
- Women > Sports > Olympics
-*/
-
-// let sport = new Sports('S001');
+// console.log(w.countryRepresented);
+console.log(m.countryRepresented);
