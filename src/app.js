@@ -15,6 +15,18 @@ class Men extends Sports {
 class Women extends Sports {
 
 }
+
+let w = new Women();
+
+/*
+console.log(w instanceof Sports);
+console.log(w instanceof Olympics);
+
+console.log('Sports: ' , w instanceof Sports);
+console.log('Olympics: ' , w instanceof Olympics);
+*/
+
+
 /*
 Structure:
 
