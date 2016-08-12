@@ -31,5 +31,6 @@ let w = new Women();
 let m = new Men();
 
 // console.log(w.countryRepresented);
-console.log(m.countryRepresented);
+
 w.watch();
+console.log(m.countryRepresented);
