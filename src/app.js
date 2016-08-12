@@ -7,20 +7,22 @@ class Sports {
   }
   // Methods (looks like a function, but is it?)
   location() {
-    console.log('Sports ' + this.id + ' in Rio');
-    
+    console.log('I am ' + this.name + ' in Rio');
+
   }
 }
 Sports.olymics = 2016; // Static Properties.
 
-
-
 let sport = new Sports('S001','Swimming');
 let sport2 = new Sports('S002','Fencing');
 
+sport.location();
+sport2.location();
 
-console.log('ID #1: ' + sport.id + ' & Sport #2 ID: ' + sport2.id);
-console.log('Year ' + Sports.olymics); // Static Properties.
+// console.log();
+
+// console.log('ID #1: ' + sport.id + ' & Sport #2 ID: ' + sport2.id);
+// console.log('Year ' + Sports.olymics); // Static Properties.
 
 // console.log('Sport #1 ID: ' + sport.id + ' & Sport #2 ID: ' + sport2.id);
 // Let's simplify that:  console.log('Sport: ' + sport.sportName + ' ' + sport.id);
