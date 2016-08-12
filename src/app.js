@@ -1,35 +1,35 @@
 //Extending Classes
 class Olympics {
-  constructor() {
-    console.log('Olympics constructor');
+  constructor(countryRepresent) {
+    // console.log('Olympics constructor');
   }
 }
 
 class Sports extends Olympics {
-  constructor() {
+  constructor(countryRepresent) {
     super();
-    console.log('Sports constructor');
+    // console.log('Sports constructor');
   }
 }
 
 class Men extends Sports {
-  constructor() {
+  constructor(countryRepresent) {
     super();
-    console.log('Men constructor');
+    // console.log('Men constructor');
   }
 }
 
 class Women extends Sports {
-  constructor() {
+  constructor(countryRepresent) {
     super();
-    console.log('Women constructor');
+    // console.log('Women constructor');
   }
 }
 
 let w = new Women();
 let m = new Men();
 
-
+    console.log(w.countryRepresent);
 
 
 
