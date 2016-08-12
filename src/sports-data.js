@@ -6,7 +6,7 @@ export let sportsData = [
    name: "Dong-Moon Kim",
    nationality: "KOR",
    gold: 2,
-   silve: 0,
+   silver: 0,
    bronze: 1
  },{
    sport: "Artistic Gymnastics",
@@ -15,9 +15,8 @@ export let sportsData = [
    name: "Bob Kim",
    nationality: "USA",
    gold: 2,
-   silve: 3,
+   silver: 3,
    bronze: 1
-
  },{
    sport: "Basketball",
    sportID: "003",
@@ -25,7 +24,7 @@ export let sportsData = [
    name: "Lin Dan",
    nationality: "JAP",
    gold: 1,
-   silve: 2,
+   silver: 2,
    bronze: 4
  },{
    sport: "Beach Volleyball",
@@ -34,7 +33,7 @@ export let sportsData = [
    name: "Daniel Lim",
    nationality: "CDN",
    gold: 5,
-   silve: 5,
+   silver: 5,
    bronze: 5
  },{
    sport: "Boxing",
@@ -43,160 +42,87 @@ export let sportsData = [
    name: "Mike Hope",
    nationality: "FIN",
    gold: 1,
-   silve: 2,
+   silver: 2,
    bronze: 3
  },{
    sport: "Canoe Slalom",
    sportID: "006",
    gender: "mens",
-   name: "Ling Gao",
+   name: "Teófilo Steveson",
    nationality: "CHN",
-   gold: 0,
-   silve: 1,
+   gold: 10,
+   silver: 1,
    bronze: 0
  },{
    sport: "Diving",
    sportID: "007",
    gender: "mens",
    name: "Ling Gao",
-   nationality: "CHN",
+   nationality: "HUN",
    gold: 0,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Equestrian",
-   sportID: "008",
-   gender: "mens",
-   name: "Ling Gao",
-   nationality: "CHN",
-   gold: 0,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Fencing",
-   sportID: "009",
-   gender: "mens",
-   name: "Ling Gao",
-   nationality: "CHN",
-   gold: 0,
-   silve: 1,
-   bronze: 0
+   silver: 1,
+   bronze: 5
  },{
    sport: "Handball",
    sportID: "010",
    gender: "womens",
-   name: "Ling Ling",
+   name: "Nicola Ling",
    nationality: "JAM",
    gold: 1,
-   silve: 1,
+   silver: 11,
    bronze: 0
  },{
    sport: "Hockey",
    sportID: "020",
    gender: "womens",
-   name: "Ling Ling",
-   nationality: "JAM",
+   name: "Taylor Ewry",
+   nationality: "CUB",
    gold: 1,
-   silve: 1,
+   silver: 6,
    bronze: 0
  },{
    sport: "Judo",
    sportID: "030",
    gender: "womens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
+   name: "Ling Gao",
+   nationality: "UFO",
+   gold: 0,
+   silver: 2,
    bronze: 0
  },{
    sport: "Rowing",
    sportID: "040",
    gender: "womens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
+   name: "Katie Lewis",
+   nationality: "POL",
+   gold: 4,
+   silver: 1,
+   bronze: 2
  },{
    sport: "Rugby Sevens",
    sportID: "050",
    gender: "womens",
-   name: "Ling Ling",
-   nationality: "JAM",
+   name: "Claressa Ling",
+   nationality: "BRA",
    gold: 1,
-   silve: 1,
-   bronze: 0
+   silver: 5,
+   bronze: 4
  },{
    sport: "Sailing",
    sportID: "060",
    gender: "womens",
-   name: "Ling Ling",
-   nationality: "JAM",
+   name: "Mary Nurmi",
+   nationality: "RUS",
    gold: 1,
-   silve: 1,
-   bronze: 0
+   silver: 11,
+   bronze: 9
  },{
    sport: "Shooting",
    sportID: "070",
    gender: "womens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Swimming",
-   sportID: "080",
-   gender: "mens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Table Tennis",
-   sportID: "090",
-   gender: "mens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Tennis",
-   sportID: "100",
-   gender: "mens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Volleyball",
-   sportID: "110",
-   gender: "mens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Water Polo",
-   sportID: "120",
-   gender: "mens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
- },{
-   sport: "Weightlifting",
-   sportID: "123",
-   gender: "mens",
-   name: "Ling Ling",
-   nationality: "JAM",
-   gold: 1,
-   silve: 1,
-   bronze: 0
- }
-}];
+   name: "Ling Nurmi",
+   nationality: "GBR",
+   gold: 2,
+   silver: 8,
+   bronze: 10
+ }];
