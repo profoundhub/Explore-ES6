@@ -2,7 +2,9 @@
 class Olympics {
   constructor() {
     this.countryRepresented = true;
-    // console.log('Olympics constructor');
+  }
+  watch() {
+    console.log('Watching the Olympics!');
   }
 }
 
@@ -16,7 +18,6 @@ class Men extends Sports {
   constructor() {
     super();
     this.countryRepresented = false;
-
   }
 }
 
@@ -31,3 +32,4 @@ let m = new Men();
 
 // console.log(w.countryRepresented);
 console.log(m.countryRepresented);
+w.watch();
