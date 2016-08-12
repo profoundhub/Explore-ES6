@@ -25,7 +25,7 @@ Live coding TV Seems to be down, I will only be
 
 streaming on Twitch until Livecoding.TV is back online.
 
-Good moring, so previously i tried to stream and ... my
+Good morning, so previously i tried to stream and ... my
 
 computer crashed.
 
@@ -54,5 +54,5 @@ There will be a few sections and I will restart the stream after each
 
 feel free to skip ahead, if you are watching this later on YouTube.
 
-Pluse, I will be uploading to GITHUB.
+Plus, I will be uploading to GITHUB.
 as i go along so you may follow along and grab my code ...
