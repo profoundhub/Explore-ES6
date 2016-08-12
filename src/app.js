@@ -1,3 +1,5 @@
-let sportsId = 10;
+class Sports {
 
-console.log("Ready!");
+}
+console.log(typeof Sports);
+// let sport = new Sport();
