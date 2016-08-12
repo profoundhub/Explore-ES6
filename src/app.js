@@ -35,7 +35,7 @@ let m = new Men('Canada');
 
     console.log(w.countryRepresent);
 
-
+/* END Of Part 2c */
 
 
 
