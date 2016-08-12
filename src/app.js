@@ -5,10 +5,15 @@ class Sports {
       this.name = name;
 
   }
+  // Methods (looks like a function, but is it?)
+  location() {
+    console.log('Sports ' + this.id + ' in Rio');
+    
+  }
 }
 Sports.olymics = 2016; // Static Properties.
 
-// Methods
+
 
 let sport = new Sports('S001','Swimming');
 let sport2 = new Sports('S002','Fencing');
