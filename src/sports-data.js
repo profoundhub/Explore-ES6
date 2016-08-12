@@ -125,5 +125,4 @@ export let sportsData = [
    gold: 2,
    silver: 8,
    bronze: 10
- }
-}];
+ }];
