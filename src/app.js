@@ -1,9 +1,10 @@
 import { Sports } from './Olympics/Sports/sports.js';
 import { Womens } from './Olympics/Sports/Women.js';
 import { Mens } from './Olympics/Sports/Men.js';
-import { sportsData } from './sports-data.js';
+import { SportsDataServices } from './services/dataServices.js';
 
-console.log(sportsData);
+let dataService = new SportsDataServices();
+// console.log(sportsData);
 
 /*
 let w = new Womens();
