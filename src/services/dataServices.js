@@ -11,4 +11,21 @@ export class SportsDataServices {
     this.silver = [];
     this.bronze = [];
   }
+
+  loadData(sportsData) {
+    for (let data of sportsData) {
+      switch (data.gender) {
+        case 'mens':
+           // console.log('mens');
+           this.mens.push(data);
+          break;
+        case 'womens':
+           // console.log('womens');
+           this.womens.push(data);
+          break;
+        default:
+        console.log('unknown');
+      }
+    }
+  }
 }
