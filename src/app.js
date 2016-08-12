@@ -25,6 +25,10 @@ class Men extends Sports {
   watch() {
     console.log('Watching the Olympics?');
   }
+  static getCountry() {
+    super.getCountry();
+    console.log('Japan');
+  }
 }
 
 class Women extends Sports {
