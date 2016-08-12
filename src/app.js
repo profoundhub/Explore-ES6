@@ -1,11 +1,20 @@
 class Sports {
-  constructor() {
-      console.log('This is in a Sports constructor');
+  constructor(id, name) {
+      // console.log('Name of Sport: ' + sportName, id);
+      this.id = id;
+      this.name = name;
 
   }
 }
-let sport = new Sports('Swimming');
+let sport = new Sports('S001','Swimming');
 
+
+// Let's simplify that:  console.log('Sport: ' + sport.sportName + ' ' + sport.id);
+
+console.log('Sport ID: ' + sport['id'] + ' & Sport Name: ' + sport['name']);
+
+
+// console.log(sportName);
 // console.log(sport instanceof Sports);
 
 
