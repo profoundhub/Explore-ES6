@@ -1,3 +1,18 @@
-let sportsId = 10;
+class Sports {
+  constructor() {
+      console.log('This is in a Sports constructor');
 
-console.log("Ready!");
+  }
+}
+let sport = new Sports('Swimming');
+
+// console.log(sport instanceof Sports);
+
+
+/* What we have learnt so far ...
+
+Sports = function (... class === function ? )
+sport = object
+sport instanceof Sports = true (boolean)
+
+*/
