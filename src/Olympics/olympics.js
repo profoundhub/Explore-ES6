@@ -1,5 +1,5 @@
 // olympics.js
 
-export class Olympic {
+export class Olympics {
 
 }

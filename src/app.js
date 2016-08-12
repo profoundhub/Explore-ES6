@@ -1,3 +1,7 @@
 /* Prep for Part 3 */
 
-import
+import {Olympics}
+import {Sports}
+
+import {Womens}
+import {Mens}
