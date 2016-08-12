@@ -1,5 +1,6 @@
 /* Prep for Part 3 */
-import {Sports} from './Sports/sports.js'
+import { Olympics } from '../olympics.js';
+import { Sports } from './sports.js';
 
 export class Mens {
 
