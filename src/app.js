@@ -6,12 +6,12 @@ class Sports {
 
   }
 }
-let sport = new Sports('Swimming', 'S001');
+let sport = new Sports('S001','Swimming');
 
 
 // Let's simplify that:  console.log('Sport: ' + sport.sportName + ' ' + sport.id);
 
-console.log('Sport: ' + sport.id + ' ' + sport.name);
+console.log('Sport ID: ' + sport.id + ' & Sport Name: ' + sport.name);
 
 
 // console.log(sportName);
