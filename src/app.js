@@ -18,6 +18,26 @@ class Women extends Sports {
 
 let w = new Women();
 
+// w is an instanceof Olympics && Sports!
+
+console.log(w instanceof Sports);
+console.log(w instanceof Olympics);
+console.log(w instanceof Object);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 console.log(w instanceof Sports);
 console.log(w instanceof Olympics);
