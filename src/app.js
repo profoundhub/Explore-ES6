@@ -43,7 +43,11 @@ let m = new Men();
 m.watch();
 w.watch();
 
-m.getCountry();
+Women.getCountry();
+Men.getCountry();
+
+// m.getCountry();
+// w.getCountry();
 
 
 // console.log(w.countryRepresented);
