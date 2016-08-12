@@ -1,6 +1,4 @@
-import { Olympics } from './Olympics/olympics.js';
 import { Sports } from './Olympics/Sports/sports.js';
-
 import { Womens } from './Olympics/Sports/Women.js';
 import { Mens } from './Olympics/Sports/Men.js';
 
@@ -9,3 +7,6 @@ let m = new Mens();
 
 console.log(w);
 console.log(m);
+
+/* All ready for Part 3 ... yes this setup was just that -- setup/ setting up everything */
+// The Fun Begins now ...!
