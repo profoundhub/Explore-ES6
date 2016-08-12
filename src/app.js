@@ -3,18 +3,26 @@ class Sports {
       // console.log('Name of Sport: ' + sportName, id);
       this.id = id;
       this.name = name;
-
   }
+
+  // Static Methods:
+
+  static getGender() {
+    console.log('men or women?');
+  }
+
+
   // Methods (looks like a function, but is it?)
   location() {
     console.log('I am ' + this.name + ' in Rio');
-
   }
 }
 Sports.olymics = 2016; // Static Properties.
 
 let sport = new Sports('S001','Swimming');
 let sport2 = new Sports('S002','Fencing');
+
+Sports.getGender();
 
 sport.location();
 sport2.location();
