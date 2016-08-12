@@ -6,6 +6,9 @@ class Olympics {
   watch() {
     console.log('Watching the Olympics!');
   }
+  static getCountry() {
+    console.log('Canada');
+  }
 }
 
 class Sports extends Olympics {
@@ -19,18 +22,33 @@ class Men extends Sports {
     super();
     this.countryRepresented = false;
   }
+  watch() {
+    console.log('Watching the Olympics?');
+  }
 }
 
 class Women extends Sports {
   constructor() {
     super();
   }
+  watch() {
+    super.watch();
+    console.log('Watching the Olympics, too?');
+  }
 }
 
 let w = new Women();
 let m = new Men();
 
-// console.log(w.countryRepresented);
-
+m.watch();
 w.watch();
-console.log(m.countryRepresented);
+
+Women.getCountry();
+Men.getCountry();
+
+// m.getCountry();
+// w.getCountry();
+
+
+// console.log(w.countryRepresented);
+// console.log(m.countryRepresented);
