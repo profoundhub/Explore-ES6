@@ -1,7 +1,7 @@
 export let sportsData = [
 {
    sport: "Archery",
-   sportID: "00",
+   sportID: "001",
    gender: "mens",
    name: "Dong-Moon Kim",
    nationality: "KOR",
@@ -10,7 +10,7 @@ export let sportsData = [
    bronze: 1
  },{
    sport: "Artistic Gymnastics",
-   sportID: "00",
+   sportID: "002",
    gender: "mens",
    name: "Bob Kim",
    nationality: "USA",
@@ -20,7 +20,7 @@ export let sportsData = [
 
  },{
    sport: "Basketball",
-   sportID: "00",
+   sportID: "003",
    gender: "mens",
    name: "Lin Dan",
    nationality: "JAP",
@@ -29,7 +29,7 @@ export let sportsData = [
    bronze: 4
  },{
    sport: "Beach Volleyball",
-   sportID: "00",
+   sportID: "004",
    gender: "mens",
    name: "Daniel Lim",
    nationality: "CDN",
@@ -38,86 +38,165 @@ export let sportsData = [
    bronze: 5
  },{
    sport: "Boxing",
-   sportID: "00",
+   sportID: "005",
    gender: "mens",
    name: "Mike Hope",
    nationality: "FIN",
    gold: 1,
    silve: 2,
    bronze: 3
-
  },{
    sport: "Canoe Slalom",
-   sportID: "00",
+   sportID: "006",
    gender: "mens",
    name: "Ling Gao",
    nationality: "CHN",
-   gold: 5,
-   silve: 5,
-   bronze: 5
+   gold: 0,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Diving",
-   sportID: "00",
+   sportID: "007",
    gender: "mens",
+   name: "Ling Gao",
+   nationality: "CHN",
+   gold: 0,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Equestrian",
-   sportID: "00",
+   sportID: "008",
    gender: "mens",
+   name: "Ling Gao",
+   nationality: "CHN",
+   gold: 0,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Fencing",
-   sportID: "00",
+   sportID: "009",
    gender: "mens",
+   name: "Ling Gao",
+   nationality: "CHN",
+   gold: 0,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Handball",
-   sportID: "00",
+   sportID: "010",
    gender: "womens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Hockey",
-   sportID: "00",
+   sportID: "020",
    gender: "womens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Judo",
-   sportID: "00",
+   sportID: "030",
    gender: "womens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Rowing",
-   sportID: "00",
+   sportID: "040",
    gender: "womens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Rugby Sevens",
-   sportID: "00",
+   sportID: "050",
    gender: "womens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Sailing",
-   sportID: "00",
+   sportID: "060",
    gender: "womens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Shooting",
-   sportID: "00",
+   sportID: "070",
    gender: "womens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Swimming",
-   sportID: "00",
+   sportID: "080",
    gender: "mens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Table Tennis",
-   sportID: "00",
+   sportID: "090",
    gender: "mens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Tennis",
-   sportID: "00",
+   sportID: "100",
    gender: "mens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Volleyball",
-   sportID: "00",
+   sportID: "110",
    gender: "mens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Water Polo",
-   sportID: "00",
+   sportID: "120",
    gender: "mens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  },{
    sport: "Weightlifting",
-   sportID: "00",
+   sportID: "123",
    gender: "mens",
+   name: "Ling Ling",
+   nationality: "JAM",
+   gold: 1,
+   silve: 1,
+   bronze: 0
  }
 }];
