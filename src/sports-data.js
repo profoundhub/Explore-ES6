@@ -1,4 +1,4 @@
-export let SportsData = [
+export let sportsData = [
 {
    sport: "Archery",
    sportID: "001",
