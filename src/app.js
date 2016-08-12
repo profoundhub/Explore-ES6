@@ -1,33 +1,37 @@
 //Extending Classes
 class Olympics {
   constructor(countryRepresent) {
+    this.countryRepresent = countryRepresent;
     // console.log('Olympics constructor');
   }
 }
 
 class Sports extends Olympics {
   constructor(countryRepresent) {
-    super();
+    super(countryRepresent);
+    this.countryRepresent = countryRepresent;
     // console.log('Sports constructor');
   }
 }
 
 class Men extends Sports {
   constructor(countryRepresent) {
-    super();
+    super(countryRepresent);
+    this.countryRepresent = countryRepresent;
     // console.log('Men constructor');
   }
 }
 
 class Women extends Sports {
   constructor(countryRepresent) {
-    super();
+    super(countryRepresent);
+    this.countryRepresent = countryRepresent;
     // console.log('Women constructor');
   }
 }
 
-let w = new Women();
-let m = new Men();
+let w = new Women('Canada');
+let m = new Men('Canada');
 
     console.log(w.countryRepresent);
 
